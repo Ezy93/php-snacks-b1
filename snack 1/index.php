@@ -26,6 +26,12 @@
             'guest' => 'Mattinata',
             'hostpoint' => 55,
             'guestpoint' => 60,
+        ],
+        [
+            'host' => 'Manfredonia',
+            'guest' => 'Foggia',
+            'hostpoint' => 30,
+            'guestpoint' => 40,
         ]
     ]
 ?>
