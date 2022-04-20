@@ -40,17 +40,17 @@
 <body>
     <div class="p-5">
         <h1 class="text-uppercase">teacher:</h1>
-        <p>
+        <div>
             <?php for($i = 0; $i < count($db['teachers']); $i++){
-                echo '<div class="bg-secondary p-2">'.$db['teachers'][$i]['name'].' '.$db['teachers'][$i]['lastname'].'</div>';
+                echo '<p class="bg-secondary p-2 m-0">'.$db['teachers'][$i]['name'].' '.$db['teachers'][$i]['lastname'].'</p>';
             } ?>
-        </p>
+        </div>
         <h1 class="text-uppercase">pm:</h1>
-        <p>
+        <div>
             <?php for($i = 0; $i < count($db['pm']); $i++){
-                echo '<div class="bg-success p-2">'.$db['pm'][$i]['name'].' '.$db['pm'][$i]['lastname'].'</div>';
+                echo '<p class="bg-success p-2  m-0">'.$db['pm'][$i]['name'].' '.$db['pm'][$i]['lastname'].'</p>';
             } ?>
-        </p>
+        </div>
     </div>
 </body>
 </html>
